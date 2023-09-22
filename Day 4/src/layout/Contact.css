@@ -1,0 +1,92 @@
+/* Styles for the contact page container */
+.contact-container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Styles for the contact form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical; 
+    background: fixed;
+    background-color: #333;/* Allow vertical resizing of the textarea */
+  }
+  .c {
+    /* Define container properties */
+    width: 100%; /* Set the container width as needed */
+    max-width: 1200px; /* Set a maximum width for the container, adjust as needed */
+    margin: 10 auto;
+    margin-inline-end: auto;/* Center the container horizontally */
+    padding: 10px; /* Add padding to the container as needed */
+    box-sizing: border-box; /* Include padding and border in the container's total width */
+    background-image: url(../Asset/l.jpg) ;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+  top: 50%; /* Adjust vertical positioning as needed */
+  right: 38%;
+  transform: translate(0, -50%); /* Center vertically relative to the parent */
+  /* Add other container styles as needed */
+  width: 300px; /* Example width */
+  padding: 20px;
+    width: 400px; /* You can adjust the width as needed */
+  padding: 20px; /* Add padding to the container as needed */
+   /* Set a background color or other styles */
+  text-align: center;
+     
+  }
+  
+  
+  .contact-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for contact information */
+  .contact-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styles for footer or additional elements */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Add other styles as needed for your specific design */
+  
