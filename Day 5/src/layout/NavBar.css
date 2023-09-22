@@ -1,0 +1,21 @@
+.brand-logo{
+    text-align: right;
+  }
+#user
+{
+  padding-top: 100px;
+  color:black;
+  font-size: 50px;
+  font-family:cursive;
+}
+#a{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+}
+.navnav{
+  background-color: rgb(31, 8, 132);
+
+}
+.brand-logo{
+  font-family: cursive;
+}
