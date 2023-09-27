@@ -1,0 +1,42 @@
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: 100%;
+  background-color: #d2c1c1;
+  color: #000000; /* Changed from rgb(0, 0, 0) to a hex color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto; /* Add scroll if needed */
+}
+
+/* Sidebar Header */
+.sidebar-header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Sidebar Heading */
+.sidebar h2 {
+  margin: 0;
+  color: #000000;
+}
+
+/* Sidebar Menu */
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  color: #fffdfd; /* Text color for menu items */
+}
+
+/* Sidebar Menu Item */
+.sidebar-menu li {
+  padding: 20px 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* Sidebar Menu Item Hover */
+.sidebar-menu li:hover {
+  background-color: #000000;
+}
