@@ -1,0 +1,186 @@
+.login-page2 {
+  display: flex;
+  justify-content: center; /* Align content to the right */
+  align-items: center; /* Vertically center the content */
+  height: 100vh; /* Make the container cover the entire viewport height */
+  background-color: #ffffff; /* Add a background color to the container */
+  padding: 20px; /* Add padding to the container */
+  margin: 0 auto;
+}
+
+.login2 {
+  background-color: #ffffff; /* Add a background color to the form container */
+  padding: 20px; /* Add padding to the form container */
+  border-radius: 8px; /* Add rounded corners to the form container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to the form container */
+  max-width: 400px; /* Limit the width of the form container */
+  width: 100%; /* Ensure the form container takes up all available space */
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* Add any additional styles for your form, labels, and inputs here */
+
+.form-login2 {
+  padding-top: 7%;
+  margin: 0 auto;
+}
+
+.form-login2 label {
+  font-size: 14px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.input-email,
+.input-password {
+  background: #ededed;
+  border-radius: 25px;
+
+  padding: 10px;
+  display: flex;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="text"] {
+  width: 100%;
+  border: 0;
+  background: white;
+  font-size: 16px;
+  padding: 5px;
+  outline: none;
+}
+p{
+  color: black;
+  
+}
+button {
+  width: 100%;
+  border-radius: 25px;
+  padding: 14px;
+  background: #1e25aa;
+  color: #FFF;   
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+@media (min-width: 769px) {
+  .login-page2 {
+    background: url('./Asset/ho.jpg');
+    background-size: cover;
+    
+  }
+
+  .login2 {
+    background: rgba(255, 253, 253, 0.8); 
+    backdrop-filter: blur(15px);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-page2 {
+    background: url('./Asset/ho.jpg');
+    background-size: cover;
+  }
+
+  .login2 {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto; /* Center the container for smaller screens */
+    background: rgba(255, 255, 255, 0.8); 
+  }
+  .input-email,
+  .input-password {
+    margin: 6px 0;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+@media (min-width: 769px) {
+  .login-page2 {
+    background: url('./Asset/ho.jpg');
+    background-size: cover;
+  }
+
+  .login2 {
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(15px);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-page2 {
+    background: url('./Asset/ho.jpg');
+    background-size: cover;
+  }
+
+  .login2 {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto; 
+    background: rgba(255, 255, 255, 0.8); 
+  }
+  .input-email,
+  .input-password {
+    margin: 6px 0;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+}
+.btn1 {
+ 
+  background-color: #be6526;
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.success-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; 
+}
+
+.success-popup-content {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.success-popup-content h3 {
+  font-size: 22px;
+  color: black;
+  margin-bottom: -9px;
+  margin-top: 1px;
+  margin-right: 2px;
+  
+}
